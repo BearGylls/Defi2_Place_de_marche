@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Place de marché d’illustrateurs
+    indépendants</title>
+    <style type=text/css>pre{font-size:large;}tt{font-size:large;}</style>
+
+
+</head>
+<body>
+    <table width="100%">
+        <tr>
+          <td align=left bgcolor="#AAAAFF"><h1>Place de marché d’illustrateurs
+            indépendants</h1></td>
+        </tr>
+      </table>
+   
+
+  <h5>Nouvelle Artiste</h5>
+  <input type="text" id="nomartiste">
+  <button onclick="ajouterArtiste()">ajouter un artiste</button>
+  <tr>
+   <h5>Liste des artistes inscrits</h5>
+  </tr>
+ 
+  <input type = "text" id = "afficheArtiste" value =""></input>
+  <button onclick = "afficheArt()">Affiche Artiste</button>
+  <div id = "result"></div>
+
+  <ul id="liste">
+    
+  </ul>
+  <div>Réseau : </div><span id="network"></span></div>
+  <div>Creneaux Libres : <span id="creneaux"></span></div>
+  <div>Artiste en cours : <span id="encours"></span></div>
+
+  <script src="https://cdn.ethers.io/scripts/ethers-v4.min.js"></script>
+
+  <script src="./data.js"></script>
+  
+  <script src="./app.js">
+
+  </script>
+
+</body>
+</html>
